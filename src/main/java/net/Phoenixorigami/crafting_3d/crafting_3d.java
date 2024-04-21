@@ -24,7 +24,7 @@ public class crafting_3d {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        LOGGER.log("Hello World");
+        LOGGER.info("Hello World");
     }
 
 }
