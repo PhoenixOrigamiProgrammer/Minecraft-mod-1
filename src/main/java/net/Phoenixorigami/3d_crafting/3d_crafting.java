@@ -10,10 +10,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(3d_crafting.MOD_ID)
-public class 3d_crafting {
-    public static final String MOD_ID = "3d_crafting";
+@Mod(crafting_3d.MOD_ID)
+public class crafting_3d {
+    public static final String MOD_ID = "crafting_3d";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // Very Important Comment
-    public 3d_crafting() {
+    public crafting_3d() {
