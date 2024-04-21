@@ -11,7 +11,7 @@ loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft versio
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT License"
 # A list of mods - how many allowed here is determined by the individual mod loader
-[[]] #mandatory
+[[mods]] #mandatory
 # The modid of the mod
 modId="crafting_3d" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
@@ -33,8 +33,7 @@ authors="PhoenixOrigami" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='Noch nichts'
-'''
+description='''Noch nichts'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.crafting_3d]] #optional
     # the modid of the dependency
